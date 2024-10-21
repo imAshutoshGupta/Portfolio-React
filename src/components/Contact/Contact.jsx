@@ -18,7 +18,7 @@ const Contact = () => {
     <section>
       <div id="contact" className="contact-container">
         <p className="intro-intro">
-          <span>03.</span> What’s Next?
+          <span>04.</span> What’s Next?
         </p>
         <Fade>
 

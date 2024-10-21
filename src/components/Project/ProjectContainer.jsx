@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import projectimage from "../../assets/images/projects/portfolio-1.jpg";
 const ProjectContainer = () => {
   return (

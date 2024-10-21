@@ -2,7 +2,7 @@ import React from "react";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Introduction from "../Introduction/Introduction";
-import OtherProject from "../OtherProjects/OtherProject";
+import Blogs from "../Blogs/Blogs";
 import Project from "../Project/Project";
 import "./Center.css";
 
@@ -12,7 +12,7 @@ const Center = () => {
       <Introduction />
       <About />
       <Project />
-      <OtherProject/>
+      <Blogs/>
       <Contact/>
     </div>
   );

@@ -1,37 +1,32 @@
 import React, { useState } from "react";
-import "./OtherProject.css";
-import OtherProjectEach from "./OtherProjectEach";
+import "./Blogs.css";
+import BlogEach from "./BlogEach";
 import List from '../../config/List'
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-const OtherProject = () => {
+const Blogs = () => {
   const [showMore, setshowMore] = useState(false);
-  // const [btnText, setbtnText] = useState('View More')
+ 
 
   const numberOfItems = showMore ? List.length : 6;
 
   return (
     <section>
-      <div className="otherprojectMain">
-        <div className="otherproject-heading">
+      <div className="blogMain">
+        <div className="blog-heading">
           <Fade>
-            <h2>Other Noteworthy Projects</h2>
-            <Link to="/archive" className="hover-underline-animation">
-              view the archive
-            </Link>
+            <h2 className="hover-underline-animation"><Link>03.</Link>My Blogs</h2>
           </Fade>
         </div>
-        <div className="otherproject-container">
-          <ul className="otherproject-container-ul">
+        <div className="blog-container">
+          <ul className="blog-container-ul">
             <Fade direction="up" damping={0.1} duration="500" cascade>
               {List.slice(0, numberOfItems).map((item) => {
                 return (
-                  <OtherProjectEach
+                  <BlogEach
                     siteLink={item.siteLink}
-                    projectLinkGithub={item.projectLinkGithub}
                     title={item.title}
                     description={item.description}
-                    skill={item.skill}
                   />
                 );
               })}
@@ -50,4 +45,4 @@ const OtherProject = () => {
   );
 };
 
-export default OtherProject;
+export default Blogs;
