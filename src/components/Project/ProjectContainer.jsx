@@ -4,7 +4,7 @@ import projectimage from "../../assets/images/projects/portfolio-1.jpg";
 const ProjectContainer = () => {
   return (
     <div class="project-container">
-      <a href="https://homiesapartment.netlify.app/" class="project-left">
+      <a href="https://book-store-mern-frontend-orcin.vercel.app/" class="project-left">
         <img src={projectimage} alt="" />
       </a>
       <div class="project-right">
@@ -13,27 +13,24 @@ const ProjectContainer = () => {
           <h2 className="Project-title">
             <a
               target="__blank"
-              className="homie-link-project"
-              href="https://homiesapartment.netlify.app/"
+              className="bookstore-mern-project"
+              href="https://book-store-mern-frontend-orcin.vercel.app/"
             >
-              Homies Apartment
+              Book Store App
             </a>
           </h2>
           <p className="Project-des">
-            Renting a new apartment should be transparent and hassle-free.
-            Homies Apartment has the industry's most accurate availability and
-            pricing data to help you find the <Link>top deals</Link> ,
-            <Link>the best rent specials</Link> , and{" "}
-            <Link>the true cost of your next apartment</Link> .
+          Discover a haven for book lovers in our cozy bookstore project, where a curated selection of titles meets inviting spaces for reading and community events. From bestsellers to hidden gems, we aim to inspire a love for literature and foster connections through book clubs, author signings, and creative workshops.
           </p>
           <ul className="tech">
             <li>React</li>
-            <li>Bootstrap</li>
+            <li>Tailwind</li>
             <li>Express</li>
-            <li>Gsap</li>
+            <li>Firebase</li>
+            <li>MongoDB</li>
           </ul>
           <div className="link">
-            <a href="https://github.com/lilyoo226/homiesApartmentWebsite">
+            <a href="https://github.com/imAshutoshGupta/BookStore-MERN-frontend">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -49,7 +46,7 @@ const ProjectContainer = () => {
                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
               </svg>
             </a>
-            <a href="https://homiesapartment.netlify.app/">
+            <a href="https://book-store-mern-frontend-orcin.vercel.app/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
