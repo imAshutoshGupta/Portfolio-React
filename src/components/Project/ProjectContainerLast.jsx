@@ -1,10 +1,10 @@
 import React from "react";
-import projectimage from "../../assets/images/projects/portfolio-10.jpg";
+import projectimage from "../../assets/images/projects/portfolio-2.jpg";
 
 const ProjectContainerLast = () => {
   return (
     <div class="project-container">
-      <a href="https://ceek.netlify.app/" class="project-left">
+      <a href="https://pantofurniture.vercel.app/" class="project-left">
         <img src={projectimage} alt="" />
       </a>
       <div class="project-right">
@@ -14,28 +14,22 @@ const ProjectContainerLast = () => {
             <a
               target="__blank"
               className="homie-link-project"
-              href="https://ceek.netlify.app/"
+              href="https://pantofurniture.vercel.app/"
             >
-              Ceek Traning Website
+              Panto Furniture Website
             </a>
           </h2>
         
           <p className="Project-des">
-            Do you feel like you're doing a lot of guess work when it comes to
-            SEO for your website? Take the SEO training course to change that
-            <br />
-            Teaching students all about the beste SEO techniques is something I
-            love to do as a full-time job
+          Welcome to Panto, your destination for stylish and functional furniture. Explore our curated collection that blends modern design with comfort, perfect for any space. From chic sofas to elegant dining sets, Panto offers pieces that elevate your home and reflect your unique style.
           </p>
           <ul className="tech">
             <li>React</li>
-            <li>Bootstrap</li>
-            <li>Gsap</li>
-            <li>Firebase</li>
-            <li>Express</li>
+            <li>Tailwind</li>
+            <li>Swiper</li>
           </ul>
           <div className="link">
-            <a href="https://github.com/lilyoo226/Ceek-Website">
+            <a href="https://github.com/imAshutoshGupta/Panto-Furniture-React">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -51,7 +45,7 @@ const ProjectContainerLast = () => {
                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
               </svg>
             </a>
-            <a href="https://ceek.netlify.app/">
+            <a href="https://pantofurniture.vercel.app/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

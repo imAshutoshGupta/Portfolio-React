@@ -13,7 +13,7 @@ const ProjectContainer = () => {
           <h2 className="Project-title">
             <a
               target="__blank"
-              className="bookstore-mern-project"
+              className="homie-link-project"
               href="https://book-store-mern-frontend-orcin.vercel.app/"
             >
               Book Store App
@@ -24,7 +24,6 @@ const ProjectContainer = () => {
           </p>
           <ul className="tech">
             <li>React</li>
-            <li>Tailwind</li>
             <li>Express</li>
             <li>Firebase</li>
             <li>MongoDB</li>
