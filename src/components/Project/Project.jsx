@@ -4,6 +4,7 @@ import "./Project.css";
 import ProjectContainer from "./ProjectContainer";
 import ProjectContainerLast from "./ProjectContainerLast";
 import ProjectFlip from "./ProjectFlip";
+import ProjectFlip2 from "./ProjectFlip2";
 const Project = () => {
   return (
     <div id="work" className="projects">
@@ -25,6 +26,7 @@ const Project = () => {
             <ProjectContainer />
             <ProjectFlip />
             <ProjectContainerLast />
+            <ProjectFlip2 />
           </Fade>
         </div>
       </div>
