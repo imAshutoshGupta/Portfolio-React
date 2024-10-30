@@ -41,7 +41,7 @@ const Introduction = () => {
           <h3 className="intro-button">
             <a
               target="-blank"
-              href="https://drive.google.com/file/d/1sdGEKWtlWOClsE9qmXDbd7uuMMHGjozR/view"
+              href="https://drive.google.com/file/d/1xunWtqb6wviCBakmo3VF8LB07VSaJty0/view?usp=sharing"
             >
               Check out my resume !
             </a>

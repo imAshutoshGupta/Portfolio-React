@@ -73,7 +73,7 @@ const Navbar = () => {
                   download
                   to={Resume}
                 >
-                  Resume
+                  Download Resume
                 </Link>
               </li>
             </Fade>
